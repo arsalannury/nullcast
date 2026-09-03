@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Nullcast
 
-## Getting Started
+Official website for **Nullcast**, a Persian podcast covering technology, AI, history, and other topics.
 
-First, run the development server:
+This project is being built as a **full-stack web application with Next.js**, with the goal of creating a fast, modern, and maintainable platform for publishing and exploring podcast episodes.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Project Goals
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+* Build a modern web platform for Nullcast
+* Provide dedicated pages for podcast episodes and their content
+* Create a responsive and accessible user experience
+* Build the frontend and backend within the Next.js ecosystem
+* Design a scalable data and API architecture for future features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+* **Next.js**
+* **PostgreSQL**
+* **Prisma ORM**
+* **Next.js Server-Side APIs**
 
-## Learn More
+The project is currently in its early development stage, so the technology stack will evolve as development progresses.
 
-To learn more about Next.js, take a look at the following resources:
+## Architecture
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Nullcast is being developed as a **full-stack Next.js application**, keeping the frontend, backend logic, and API layer within the same codebase.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The database layer will use **PostgreSQL** with **Prisma ORM** for schema management, migrations, and database access.
 
-## Deploy on Vercel
+## Development Roadmap
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* [ ] Database design
+* [ ] Prisma schema & migrations
+* [ ] Authentication
+* [ ] API design
+* [ ] Episode management
+* [ ] Podcast episode pages
+* [ ] Responsive UI implementation
+* [ ] Production deployment
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Status
+
+🚧 **Currently under active development**
+
+The project is being built incrementally, with an initial focus on establishing a clean architecture and reliable full-stack foundation before expanding the feature set.
+
+## Author
+
+**Arsalan Noori**
+Frontend Engineer
+
+[LinkedIn](https://www.linkedin.com/in/arsalannuryy)
